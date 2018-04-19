@@ -4,7 +4,7 @@ from customers
 group by country
 having totalcust=2
 
-----Query for where country have more than 2 customers and in decrease order-------
+----Query for where country have more than 1 customers and in decrease order-------
 select country, count(customerid) as totcust
 from Customers
 group by country
